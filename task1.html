@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .id-card {
+        width: 300px;
+        height: 350px;
+        background-color: rgb(111, 159, 250);
+        border-top: 30px solid aqua;
+        border-bottom: 30px solid aqua;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px grey;
+      }
+      fieldset {
+        background-color: white;
+        border: none;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+      }
+      legend {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+      span {
+        font-weight: bold;
+        color: rgb(5, 68, 68);
+        text-decoration: underline dotted;
+        /* text-decoration-color: red; */
+      }
+      .info {
+        font-size: 0.8rem;
+        text-align: center;
+      }
+      .name {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px 0;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        font-weight: bolder;
+      }
+      .id-card-expiry {
+        margin-top: 4rem;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: italic;
+      }
+      .company {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px green;
+        color: greenyellow;
+
+      }
+
+      .image {
+        width: 100px;
+        display: block; 
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="id-card">
+      <div class="company">GREEN PLANET</div>
+      <fieldset>
+        <legend>
+          <img src="./photo.jpg" alt="" class="image">
+        </legend>
+        <div class="name">RUPESH SAI</div>
+        <div class="info">
+          <div><span>ID</span>:123456789</div>
+          <div><span>PHONE</span>:+91-9392836367</div>
+          <div><span>EMAIL</span>:rupeshsaimacharla123@gmail.com</div>
+        </div>
+        <div class="id-card-expiry">
+          <span>JOIN</span>:4/2024 | <span>EXPIRY</span>:8/2027
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>
